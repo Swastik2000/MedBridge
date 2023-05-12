@@ -11,9 +11,9 @@ export default function SearchBox() {
           id="search"
           type="text"
           name="search"
-          placeholder="Search goods"
+          placeholder="Search Medicines"
         />
-        <select id="categories-search" name="categories-search">
+        {/* <select id="categories-search" name="categories-search">
           <option value="" selected>
             Category
           </option>
@@ -25,7 +25,7 @@ export default function SearchBox() {
             <option value="#">Keyboards</option>
             <option value="#">TV & Video</option>
             <option value="#">Accessories</option>
-        </select>
+        </select> */}
       </div>
       <style jsx>{`
         .search-box {

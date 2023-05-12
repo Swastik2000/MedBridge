@@ -64,7 +64,7 @@ export default function HeaderDesktop({ viewer }) {
         </div>
       </div>
       <div className="header header-bottom">
-        <div className="all-categories-box">
+        {/* <div className="all-categories-box">
           <FaBars color="#d8d8d8" />
           <select name="categories" id="categories">
             <option value="All Categories" selected>
@@ -79,9 +79,9 @@ export default function HeaderDesktop({ viewer }) {
             <option value="#">TV & Video</option>
             <option value="#">Accessories</option>
           </select>
-        </div>
+        </div> */}
 
-        <nav className="main-nav">
+        {/* <nav className="main-nav">
           <Link href="#">
             <a>Super Deals</a>
           </Link>
@@ -94,9 +94,9 @@ export default function HeaderDesktop({ viewer }) {
           <Link href="#">
             <a>Bestselling</a>
           </Link>
-        </nav>
+        </nav> */}
 
-        <div className="settings">
+        {/* <div className="settings">
           <div className="menu-dropdown">
             <p>Help</p>
           </div>
@@ -106,7 +106,7 @@ export default function HeaderDesktop({ viewer }) {
           <div className="menu-dropdown">
             <p>Language - English</p>
           </div>
-        </div>
+        </div> */}
       </div>
       <style jsx>{`
         /* Header Top */

@@ -10,7 +10,7 @@ export default function PageContainer({ title, description, children }) {
             name="description"
             content={
               description ||
-              'Quantum E-commerce made with Next.js open-source project.'
+              ''
             }
           />
         )}

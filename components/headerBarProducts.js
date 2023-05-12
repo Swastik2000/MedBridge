@@ -28,7 +28,7 @@ export default function HeaderBarProducts() {
           }
           onClick={handlePopularProductsClick}
         >
-          Popular products
+          Frequent
         </a>
         <a
           id="low-price"
