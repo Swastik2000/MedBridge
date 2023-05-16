@@ -65,7 +65,7 @@ export default function Home() {
           {data.productsById[0].description}
         </h3>
 
-        <div className="rating">
+        {/* <div className="rating">
           <StarRatings
             rating={parseFloat(data.productsById[0].rating)}
             starRatedColor="#F9AD3D"
@@ -74,7 +74,10 @@ export default function Home() {
             starDimension="20px"
             starSpacing="1px"
           />
-        </div>
+        </div> */}
+
+        <h1 className="product-name">Expiry Date: {data.productsById[0].created_at}</h1>
+
 
         <div className="price">
           <p className="price-value">${data.productsById[0].price}</p>

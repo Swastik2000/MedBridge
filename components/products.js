@@ -41,6 +41,7 @@ export default function Products({ category }) {
             rating={product.rating}
             img_url={product.img_url}
             price={product.price}
+            created_at={product.created_at}
           />
         ))}
       </ProductsGrid>
@@ -60,6 +61,7 @@ export default function Products({ category }) {
           rating={product.rating}
           img_url={product.img_url}
           price={product.price}
+          created_at={product.created_at}
         />
       ))}
     </ProductsGrid>

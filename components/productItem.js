@@ -10,7 +10,7 @@ import StarRatings from 'react-star-ratings';
 import { toggleCart, toggleWishlist } from '../utils/toggleProductStates';
 import { CART, WISHLIST } from '../apollo/client/queries';
 
-export default function ProductSection({ id, name, rating, img_url, price }) {
+export default function ProductSection({ id, name, rating, img_url, price, created_at}) {
   const cart = useQuery(CART);
   const wishlist = useQuery(WISHLIST);
 
@@ -37,7 +37,7 @@ export default function ProductSection({ id, name, rating, img_url, price }) {
         <a className="product-name">{name}</a>
       </Link>
 
-      <div className="rating">
+      {/* <div className="rating">
         <StarRatings
           rating={parseFloat(rating)}
           starRatedColor="#F9AD3D"
@@ -46,6 +46,11 @@ export default function ProductSection({ id, name, rating, img_url, price }) {
           starDimension="20px"
           starSpacing="1px"
         />
+      </div> */}
+
+      <div className="created_at">
+      <p >Expiry Date: {created_at}</p>
+        
       </div>
 
       <div className="price">

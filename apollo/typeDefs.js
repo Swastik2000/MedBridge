@@ -14,7 +14,7 @@ export const typeDefs = gql`
     img_url: String!
     price: String!
     rating: String!
-    createdAt: Int
+    created_at: String!
     updatedAt: Int
     user_id: ID!
   }
