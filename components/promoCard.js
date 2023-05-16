@@ -1,8 +1,8 @@
 export default function PromoCard() {
   return (
-    // <div className="promo-card">
-    //   <p className="title">Look Up In The Sky</p>
-    //   <p className="description">Astronomy Or Astrology</p>
+    <div className="promo-card">
+      <p className="title">Look Up In The Sky</p>
+      <p className="description">Astronomy Or Astrology</p>
 
       <style jsx>{`
         .promo-card {

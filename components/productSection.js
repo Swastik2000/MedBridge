@@ -7,8 +7,8 @@ export default function ProductSection({ category }) {
   return (
     <section id="product">
       <aside>
-        <AsideCategories />
-        <PromoCard />
+        {/* <AsideCategories /> */}
+        {/* <PromoCard /> */}
       </aside>
       <div className="main">
         <HeaderBarProducts />
