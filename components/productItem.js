@@ -49,7 +49,7 @@ export default function ProductSection({ id, name, rating, img_url, price }) {
       </div>
 
       <div className="price">
-        <p className="price-value">${price}</p>
+        <p className="price-value">₹ {price}</p>
         <button className="add-cart" onClick={() => toggleCart(id)}>
           {cart.data.cart.products.includes(id) && (
             <FaCartArrowDown size={18} color="#D8D8D8" />
