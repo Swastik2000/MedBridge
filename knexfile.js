@@ -23,12 +23,16 @@ module.exports = {
     useNullAsDefault: true,
   },
   production: {
-    client: 'mysql',
+    client: 'sqlite3',
     connection: {
-      host: '127.0.0.1',
-      user: 'your_database_user',
-      password: 'your_database_password',
-      database: 'myapp_test',
+      filename: './db/db.sqlite',
     },
+    migrations: {
+      directory: './db/migrations',
+    },
+    seeds: {
+      directory: './db/seeds',
+    },
+    useNullAsDefault: true,
   },
 };
