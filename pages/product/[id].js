@@ -80,7 +80,7 @@ export default function Home() {
 
 
         <div className="price">
-          <p className="price-value">${data.productsById[0].price}</p>
+          <p className="price-value">₹ {data.productsById[0].price}</p>
           <button
             className="add-cart"
             onClick={() => toggleCart(data.productsById[0].id)}

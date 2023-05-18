@@ -20,7 +20,7 @@ export default function FinishOrderCart() {
     <div className="finishOrder">
       <div className="info">
         <p className="total">Total({cart?.data.cart.cartCount} Item):</p>
-        <p className="price">$ {finalPrice}</p>
+        <p className="price">₹ {finalPrice}</p>
       </div>
       <button>Finish Order</button>
       <style jsx>{`
