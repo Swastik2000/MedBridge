@@ -30,9 +30,9 @@ export default function Wishlist() {
     <Page>
       <Title title="Wishlist" />
       <section className="wishlist">
-        <aside>
+        {/* <aside>
           <AsideCategories />
-        </aside>
+        </aside> */}
         <div className="main">
           <ProductsGrid>
             {data?.productsById.map((product) => (

@@ -41,7 +41,7 @@ export default function Login() {
   }
 
   return (
-    <PageContainer title="Quantum E-commerce - Login">
+    <PageContainer title="Med-Bridge">
       <FormContainer>
         <form onSubmit={handleSubmit}>
           <h3 className="formTitle">login</h3>
