@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "tailwind": "npx tailwindcss -i global.css -o public/style.css --watch",
     "build": "next build",
     "start": "next start",
     "knex:migrate": "knex migrate:latest",
