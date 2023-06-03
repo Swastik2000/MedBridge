@@ -2,7 +2,7 @@
 export default function sellerPage() {
   return (
     <>
-   <div>
+   <div className="flex flex-wrap max-w-7xl gap-x-4 gap-y-6 justify-center ">
   <form>
     <div className="space-y-12">
       <div className="border-b border-gray-900/10 pb-12">
