@@ -54,7 +54,7 @@ also addressing the issue of affordability and accessibility of medicines for th
           </div>
        
           <div class="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
-            <img src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Fakurian Design" class="h-full w-full object-cover object-center" />
+            <img src="./public/products/pharm.jpg" loading="lazy" alt="Hero Image" class="h-full w-full object-cover object-center" />
           </div>
         
         </section>
