@@ -35,11 +35,13 @@ export default function Index() {
     
         <section class="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
           <div class="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-            <p class="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">Very proud to introduce</p>
+            {/* <p class="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">Very proud to introduce</p> */}
     
-            <h1 class="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Revolutionary way to build the web</h1>
+            <h1 class="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Accessible healthcare, anytime, anywhere</h1>
     
-            <p class="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random.</p>
+            <p class="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">MedBridge is a project that aims to promote access to medicines by facilitating the sharing of surplus medicines.
+The idea behind the project is to reduce the waste of medications that are still safe and effective for use, while
+also addressing the issue of affordability and accessibility of medicines for those who need them the most.</p>
     
             <div class="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
             <Link href="./buyerPage">
@@ -62,9 +64,9 @@ export default function Index() {
     <div class="bg-white py-6 sm:py-8 lg:py-12">
       <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div class="mb-10 md:mb-16">
-          <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Our competitive advantage</h2>
+          <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">What we provide</h2>
     
-          <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+          {/* <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p> */}
         </div>
     
     
@@ -110,7 +112,6 @@ export default function Index() {
             <div>
               <h3 class="mb-2 text-lg font-semibold md:text-xl">Unused Medicines</h3>
               <p class="mb-2 text-gray-500">Individuals can easily donate their unused medicines on our platform</p>
-              <a href="#" class="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
             </div>
           </div>
          
@@ -124,7 +125,6 @@ export default function Index() {
             <div>
               <h3 class="mb-2 text-lg font-semibold md:text-xl">Support</h3>
               <p class="mb-2 text-gray-500">Filler text is dummy text which has no meaning however looks very similar to real text.</p>
-              <a href="#" class="font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
             </div>
           </div>
         
@@ -139,17 +139,13 @@ export default function Index() {
         
       </div>
     </div>
-
-    <div class="bg-white py-6 sm:py-8 lg:py-12">
-      
-    </div>
     
-    <div class="bg-white py-6 sm:py-8 lg:py-12">
+    <div class="bg-white py-6 sm:py-8 lg:py-12 mb-2">
       <div class="mx-auto max-w-screen-xl px-4 md:px-8">
         <div class="mb-10 md:mb-16">
           <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Meet our Team</h2>
     
-          <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+          {/* <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p> */}
         </div>
     
         <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
@@ -266,26 +262,6 @@ export default function Index() {
         </div>
       </div>
     </div>
-
-    
-    <div class="bg-white py-6 sm:py-8 lg:py-12">
-      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <div class="flex flex-col items-center rounded-lg bg-gray-100 p-4 sm:p-8">
-          <div class="mb-4 sm:mb-8">
-            <h2 class="text-center text-xl font-bold text-indigo-500 sm:text-2xl lg:text-3xl">Get the latest updates</h2>
-            <p class="text-center text-gray-500">Sign up for our newsletter</p>
-          </div>
-    
-          <form class="mb-3 flex w-full max-w-md gap-2 sm:mb-5">
-            <input placeholder="Email" class="bg-gray-white w-full flex-1 rounded border border-gray-300 px-3 py-2 text-gray-800 placeholder-gray-400 outline-none ring-indigo-300 transition duration-100 focus:ring" />
-    
-            <button class="inline-block rounded bg-indigo-500 px-8 py-2 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Send</button>
-          </form>
-    
-          <p class="text-center text-xs text-gray-400">By signing up to our newsletter you agree to our <a href="#" class="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600">Term of Service</a> and <a href="#" class="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600">Privacy Policy</a>.</p>
-        </div>
-      </div>
-    </div>
   
     <div class="bg-gray-900">
       <footer class="mx-auto max-w-screen-2xl px-4 md:px-8">
@@ -301,7 +277,7 @@ export default function Index() {
               </a>
             </div>
     
-            <p class="mb-6 text-gray-400 sm:pr-8">Filler text is dummy text which has no meaning however looks very similar to real text.</p>
+            <p class="mb-6 text-gray-400 sm:pr-8">Accessible healthcare, anytime, anywhere</p>
     
             <div class="flex gap-4">
               <a href="#" target="_blank" class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
@@ -354,7 +330,7 @@ export default function Index() {
             </nav>
           </div>
        
-          <div>
+          {/* <div>
             <div class="mb-4 font-bold uppercase tracking-widest text-gray-100">Company</div>
     
             <nav class="flex flex-col gap-4">
@@ -378,7 +354,7 @@ export default function Index() {
                 <a href="#" class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
               </div>
             </nav>
-          </div>
+          </div> */}
         
           <div>
             <div class="mb-4 font-bold uppercase tracking-widest text-gray-100">Support</div>
@@ -403,28 +379,10 @@ export default function Index() {
           </div>
         
     
-         
-          <div>
-            <div class="mb-4 font-bold uppercase tracking-widest text-gray-100">Legal</div>
-    
-            <nav class="flex flex-col gap-4">
-              <div>
-                <a href="#" class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Terms of Service</a>
-              </div>
-    
-              <div>
-                <a href="#" class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Privacy Policy</a>
-              </div>
-    
-              <div>
-                <a href="#" class="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Cookie settings</a>
-              </div>
-            </nav>
-          </div>
           
         </div>
     
-        <div class="border-t border-gray-800 py-8 text-center text-sm text-gray-400">© 2021 - Present Flowrift. All rights reserved.</div>
+        <div class="border-t border-gray-800 py-8 text-center text-sm text-gray-400">© 2023 - Present MedBridge. All rights reserved.</div>
       </footer>
     </div>
     
