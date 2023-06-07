@@ -30,22 +30,22 @@ export default function Products({ category }) {
   }
 
   // Offline data
-  // if (!data?.products || error)
-  //   return (
-  //     <ProductsGrid>
-  //       {offlineProducts.map((product) => (
-  //         <ProductItem
-  //           key={product.id}
-  //           id={product.id}
-  //           name={product.name}
-  //           rating={product.rating}
-  //           img_url={product.img_url}
-  //           price={product.price}
-  //           created_at={product.created_at}
-  //         />
-  //       ))}
-  //     </ProductsGrid>
-  //   );
+  if (!data?.products || error)
+    return (
+      <ProductsGrid>
+        {data.products.map((product) => (
+          <ProductItem
+            key={product.id}
+            id={product.id}
+            name={product.name}
+            rating={product.rating}
+            img_url={product.img_url}
+            price={product.price}
+            created_at={product.created_at}
+          />
+        ))}
+      </ProductsGrid>
+    );
 
   // if (error) return <EmptySection />;
 
