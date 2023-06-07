@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <>
       <Link href="/">
-        <a className="logo">Med-Bridge</a>
+        <a className="logo">MedBridge</a>
       </Link>
       <style jsx>{`
         .logo {

@@ -21,7 +21,7 @@ export default function Login() {
   }
 
   return (
-    <PageContainer title="Med-Bridge">
+    <PageContainer title="MedBridge">
       <FormContainer>
         <form onSubmit={handleSubmit}>
           <h3 className="formTitle">Reset Password</h3>

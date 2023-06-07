@@ -48,7 +48,7 @@ export default function SignUp() {
   }
 
   return (
-    <PageContainer title="Med-Bridge">
+    <PageContainer title="MedBridge">
       <FormContainer>
         <form onSubmit={handleSubmit}>
           <h3 className="formTitle">sign up</h3>
