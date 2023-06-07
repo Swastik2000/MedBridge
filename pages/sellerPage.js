@@ -7,12 +7,12 @@ export default function sellerPage() {
   <form>
     <div className="space-y-12">
       <div className="border-b border-gray-900/10 pb-12">
-        <h2 className="text-base font-semibold leading-7 text-gray-900">Profile</h2>
-        <p className="mt-1 text-sm leading-6 text-gray-600">This information will be displayed publicly so be careful what you share.</p>
+        <h2 className="text-base font-semibold leading-7 text-gray-900">Sell/Donate your unused medicine</h2>
+        {/* <p className="mt-1 text-sm leading-6 text-gray-600">This information will be displayed publicly so be careful what you share.</p> */}
   
         <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
           <div className="sm:col-span-4">
-            <label for="username" className="block text-sm font-medium leading-6 text-gray-900">Username</label>
+            <label for="username" className="block text-sm font-medium leading-6 text-gray-900">Medicine Name</label>
             <div className="mt-2">
               <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
                 <span className="flex select-none items-center pl-3 text-gray-500 sm:text-sm"></span>
@@ -23,14 +23,14 @@ export default function sellerPage() {
           </div>
   
           <div className="col-span-full">
-            <label for="about" className="block text-sm font-medium leading-6 text-gray-900">About</label>
+            <label for="about" className="block text-sm font-medium leading-6 text-gray-900">Description</label>
             <div className="mt-2">
               <textarea id="about" name="about" rows="3" className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
             </div>
-            <p className="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about yourself.</p>
+            <p className="mt-3 text-sm leading-6 text-gray-600">Write a few information about medicine including its recomended dosage and compositions.</p>
           </div>
   
-          <div className="col-span-full">
+          {/* <div className="col-span-full">
             <label for="photo" className="block text-sm font-medium leading-6 text-gray-900">Photo</label>
             <div className="mt-2 flex items-center gap-x-3">
               <svg className="h-12 w-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -38,7 +38,7 @@ export default function sellerPage() {
               </svg>
               <button type="button" className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Change</button>
             </div>
-          </div>
+          </div> */}
   
           <div className="col-span-full">
             <label for="cover-photo" className="block text-sm font-medium leading-6 text-gray-900">Medicine photo</label>
