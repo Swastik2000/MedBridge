@@ -158,7 +158,7 @@ also addressing the issue of accessibility of medicines for those who need them 
     
           <div class="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
             <div class="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
-              <img src="" loading="lazy" alt="Photo by christian ferrer" class="h-full w-full object-cover object-center" />
+              <img src="https://pbs.twimg.com/profile_images/1394308959083720707/F3lm5B-7_400x400.jpg" loading="lazy" alt="Photo by christian ferrer" class="h-full w-full object-cover object-center" />
             </div>
     
             <div>
@@ -217,7 +217,7 @@ also addressing the issue of accessibility of medicines for those who need them 
     
             <div>
               <div class="text-center font-bold text-indigo-500 md:text-lg">Ayush Agrawal</div>
-              <p class="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">Database</p>
+              <p class="mb-3 text-center text-sm text-gray-500 md:mb-4 md:text-base">Database Schema Developer</p>
     
               <div class="flex justify-center">
                 <div class="flex gap-4">
@@ -227,11 +227,8 @@ also addressing the issue of accessibility of medicines for those who need them 
                     </svg>
                   </a>
     
-                  <a href="#" target="_blank" class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                    <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                    </svg>
-                  </a>
+            
+    
                 </div>
               </div>
             </div>
