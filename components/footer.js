@@ -17,7 +17,7 @@ export default function Fotter() {
       <div className="footer footer-top">
         <Logo />
 
-        <div className="footer-nav">
+        {/* <div className="footer-nav">
           <Link href="/">
             <a>Shop</a>
           </Link>
@@ -30,9 +30,9 @@ export default function Fotter() {
           <Link href="/">
             <a>Contacts</a>
           </Link>
-        </div>
+        </div> */}
 
-        <div className="social-links">
+        {/* <div className="social-links">
           <Link href="/">
             <a>
               <FaFacebookF color="#d8d8d8" size="18px" />
@@ -53,7 +53,7 @@ export default function Fotter() {
               <FaYoutube color="#d8d8d8" size="18px" />
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="footer footer-bottom">
         <div className="texts">
